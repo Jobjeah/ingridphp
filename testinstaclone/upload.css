@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover {
+    background-color: rgb(255, 0, 145);
+    color: white;
+}
+
+form {
+    width: 25%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+form h1 {
+    text-align: center;
+    margin-bottom:5%;
+
+}
+
+form #button{
+    color: white;
+    background-color: rgb(255, 0, 145);
+    border: 2px solid rgb(255, 0, 145);
+    margin-top: 5%;
+}
+
+form #button:hover {
+    background-color: rgb(255, 87, 183);
+    border: 2px solid rgb(255, 87, 183);
+}
+
+label {
+    font-size: .7em;
+}
+
+#fotohier {
+    margin-left: 15%;
+}
+
+#button{
+    color: white;
+    background-color: rgb(255, 0, 145);
+    border: 2px solid rgb(255, 0, 145);
+    margin-top: 5%;
+}
